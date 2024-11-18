@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kitap Mağazası</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/store.css" />
+  </head>
+  <body>
+    <header>
+      <h1>E-Kitap Dünyası</h1>
+      <nav>
+        <a href="index.html">Ana Sayfa</a>
+        <a href="store.html">Mağaza</a>
+        <a href="login.html">Giriş</a>
+        <a href="register.html">Kayıt Ol</a>
+        <a href="profile.html">Profil</a>
+      </nav>
+    </header>
+    <main class="store-page">
+      <section class="store-header">
+        <input type="text" placeholder="Kitap Ara..." class="search-bar" />
+      </section>
+      <div class="store-content">
+        <aside class="filter-panel">
+          <h3>Filtrele</h3>
+          <div class="filter-group">
+            <h4>Tür</h4>
+            <select>
+              <option>Fantastik</option>
+              <option>Bilim Kurgu</option>
+              <option>Roman</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <h4>Fiyat</h4>
+            <select>
+              <option>0-50 TL</option>
+              <option>50-100 TL</option>
+              <option>100 TL ve üzeri</option>
+            </select>
+          </div>
+        </aside>
+
+        <section class="store-grid">
+          <div class="store-card">
+            <img src="./images/book1.jpg" alt="Kitap 1" />
+            <h3>Harry Potter ve Felsefe Taşı</h3>
+            <p>₺49.99</p>
+            <a href="book.html"
+              ><button class="buy-button">Satın Al</button></a
+            >
+          </div>
+          <div class="store-card">
+            <img src="./images/book2.jpg" alt="Kitap 2" />
+            <h3>Yüzüklerin Efendisi</h3>
+            <p>₺59.99</p>
+            <a href="book.html"
+              ><button class="buy-button">Satın Al</button></a
+            >
+          </div>
+          <div class="store-card">
+            <img src="./images/book3.jpg" alt="Kitap 3" />
+            <h3>Dune</h3>
+            <p>₺69.99</p>
+            <a href="book.html"
+              ><button class="buy-button">Satın Al</button></a
+            >
+          </div>
+        </section>
+      </div>
+      <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">&raquo;</a>
+      </div>
+    </main>
+    <footer>
+      <p>© 2024 E-Kitap Dünyası - Tüm Hakları Saklıdır</p>
+    </footer>
+  </body>
+</html>
